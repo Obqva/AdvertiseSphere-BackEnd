@@ -1,0 +1,6 @@
+@Obqva_HostAddress = http://localhost:5095
+
+GET {{Obqva_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

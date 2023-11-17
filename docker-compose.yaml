@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:14.8-alpine
+    restart: always
+    ports:
+      - 5432:5432/tcp
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: Obqva
+    volumes: 
+      - db:/var/lib/postgresql/data
+
+volumes:
+  db:
+    driver: local
