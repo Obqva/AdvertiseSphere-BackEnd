@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obqva.Domain", "..\Obqva.Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obqva.Store", "..\Obqva.Store\Obqva.Store.csproj", "{71211358-44A1-486B-9D87-C9B56EE3C67B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obqva.UnitTests", "..\..\UnitTests\Obqva.UnitTests\Obqva.UnitTests.csproj", "{8222C5A0-2089-4E74-A071-60E6C37F31D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{71211358-44A1-486B-9D87-C9B56EE3C67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71211358-44A1-486B-9D87-C9B56EE3C67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71211358-44A1-486B-9D87-C9B56EE3C67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8222C5A0-2089-4E74-A071-60E6C37F31D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8222C5A0-2089-4E74-A071-60E6C37F31D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8222C5A0-2089-4E74-A071-60E6C37F31D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8222C5A0-2089-4E74-A071-60E6C37F31D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
