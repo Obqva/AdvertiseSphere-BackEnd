@@ -1,5 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
+using Obqva.Api.Constants;
 using Obqva.Service.Services;
 using Obqva.Store;
 using Obqva.Store.Repositories;
@@ -8,10 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-var connectionString = builder.Configuration.GetConnectionString("ObqvaDbContext");
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<AdDbContext>(options => options.UseNpgsql(connectionString));
+builder.Services.AddDbContext<AdDbContext>(options => options.UseNpgsql(ApiConstants.DbContext));
 
 builder.Services.AddScoped<IAdRepository, AdRepository>();
 builder.Services.AddScoped<IAdService, AdService>();
