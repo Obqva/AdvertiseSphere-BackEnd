@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Obqva.Domain\Obqva.Domain.csproj" />
+    <ProjectReference Include="..\Obqva.Domain\AdvertiseSphere.Domain.csproj" />
   </ItemGroup>
 
 </Project>

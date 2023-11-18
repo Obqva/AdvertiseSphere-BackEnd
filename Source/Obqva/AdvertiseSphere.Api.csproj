@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Obqva.Service\Obqva.Service.csproj" />
-    <ProjectReference Include="..\Obqva.Store\Obqva.Store.csproj" />
+    <ProjectReference Include="..\Obqva.Service\AdvertiseSphere.Service.csproj" />
+    <ProjectReference Include="..\Obqva.Store\AdvertiseSphere.Store.csproj" />
   </ItemGroup>
 
 </Project>

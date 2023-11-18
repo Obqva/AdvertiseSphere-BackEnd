@@ -5,9 +5,9 @@ namespace Obqva.Store.Repositories
 {
     public class AdRepository : IAdRepository
     {
-        private readonly AdDbContext _dbContext;
+        private readonly AdvertiseSphereDbContext _dbContext;
 
-        public AdRepository(AdDbContext dbContext)
+        public AdRepository(AdvertiseSphereDbContext dbContext)
         {
             _dbContext = dbContext;
         }

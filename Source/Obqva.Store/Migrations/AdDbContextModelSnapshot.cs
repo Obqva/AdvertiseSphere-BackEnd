@@ -9,7 +9,7 @@ using Obqva.Store;
 
 namespace Obqva.Store.Migrations
 {
-    [DbContext(typeof(AdDbContext))]
+    [DbContext(typeof(AdvertiseSphereDbContext))]
     partial class AdDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
