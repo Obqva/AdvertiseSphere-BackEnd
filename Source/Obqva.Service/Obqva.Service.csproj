@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Obqva.Domain\Obqva.Domain.csproj" />
+    <ProjectReference Include="..\Obqva.Store\Obqva.Store.csproj" />
+  </ItemGroup>
+
 </Project>

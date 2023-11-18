@@ -1,6 +1,8 @@
 
 using Microsoft.EntityFrameworkCore;
+using Obqva.Service.Services;
 using Obqva.Store;
+using Obqva.Store.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("ObqvaDbContext");
 builder.Services.AddControllers();
+
 builder.Services.AddDbContext<AdDbContext>(options => options.UseNpgsql(connectionString));
+
+builder.Services.AddScoped<IAdRepository, AdRepository>();
+builder.Services.AddScoped<IAdService, AdService>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
