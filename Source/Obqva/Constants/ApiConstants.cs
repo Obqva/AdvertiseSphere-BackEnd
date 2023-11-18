@@ -2,6 +2,6 @@
 {
     public static class ApiConstants
     {
-        public const string DbContext = "ObqvaDbContext";
+        public const string DbContext = "AdvertiseSphereDbContext";
     }
 }

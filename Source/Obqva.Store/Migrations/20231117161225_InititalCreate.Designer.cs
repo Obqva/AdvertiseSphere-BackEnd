@@ -10,7 +10,7 @@ using Obqva.Store;
 
 namespace Obqva.Store.Migrations
 {
-    [DbContext(typeof(AdDbContext))]
+    [DbContext(typeof(AdvertiseSphereDbContext))]
     [Migration("20231117161225_InititalCreate")]
     partial class InititalCreate
     {

@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<AdDbContext>(options => options.UseNpgsql(ApiConstants.DbContext));
+builder.Services.AddDbContext<AdvertiseSphereDbContext>(options => options.UseNpgsql(ApiConstants.DbContext));
 
 builder.Services.AddScoped<IAdRepository, AdRepository>();
 builder.Services.AddScoped<IAdService, AdService>();
