@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Obqva.Service\Obqva.Service.csproj" />
     <ProjectReference Include="..\Obqva.Store\Obqva.Store.csproj" />
   </ItemGroup>
 
